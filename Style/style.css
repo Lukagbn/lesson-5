@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "ALK Life";
+  src: url("../fonts/alk-life-webfont.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/alk-life-webfont.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/alk-life-webfont.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/alk-life-webfont.woff")
+      format("woff"),
+    /* Pretty Modern Browsers */ url("../fonts/alk-life-webfont.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/alk-life-webfont.svg#alk_liferegular") format("svg"); /* Legacy iOS */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #0a22f4;
+  padding: 20px 15px;
+}
+.logo {
+  vertical-align: middle;
+}
+header nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "ALK Life";
+  font-size: 16px;
+}
+header ul {
+  list-style: none;
+}
+header nav,
+header nav li {
+  display: inline-block;
+}
+header nav li {
+  padding: 0px 20px;
+}
+.contact-btn {
+  font-family: "ALK Life";
+  color: #171717;
+  background-color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px;
+  border: none;
+}
